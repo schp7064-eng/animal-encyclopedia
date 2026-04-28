@@ -644,12 +644,12 @@ function renderMissionPanel() {
   const isFinished = nextMissionId === "all" && state.collected.size === animals.length;
   const modeLabel = isAllMode ? "전체 도감 보기" : isCurrentMission ? "현재 미션" : "지역 미리보기";
   const title = isAllMode
-    ? "전체 54마리 도감"
+    ? "전체 30마리 도감"
     : isFinished
       ? "도감 마스터 미션 완료"
       : `${panelFilter.icon} ${panelFilter.label} 도감 미션`;
   const body = isAllMode
-    ? "모든 동물을 한눈에 둘러볼 수 있어요. 수업 흐름은 현재 미션으로 언제든 돌아갈 수 있습니다."
+    ? "모든 동물을 한눈에 둘러볼 수 있어요."
     : isCurrentMission
       ? `${panelFilter.label} 동물을 관찰하고 퀴즈를 맞혀 이 지역 도감을 완성해 보세요.`
       : `${currentMission.icon} ${currentMission.label} 미션이 현재 순서예요. 이 지역은 미리 둘러보는 중입니다.`;
