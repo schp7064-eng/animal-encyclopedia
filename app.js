@@ -530,7 +530,7 @@ const onboardingSteps = [
   },
   {
     title: "지역별로 완성해요",
-    body: "54마리를 한 번에 끝내지 않아도 괜찮아요. 우리 주변, 땅, 물, 특별한 환경을 하나씩 완성해 봅니다.",
+    body: "30마리를 한 번에 끝내지 않아도 괜찮아요. 우리 주변, 땅, 물, 특별한 환경을 하나씩 완성해 봅니다.",
     target: () => els.missionPanel || els.progressFill
   }
 ];
